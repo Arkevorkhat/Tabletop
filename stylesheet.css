@@ -1,0 +1,373 @@
+/*	Original Template for ______
+	Updated: 4/21/2015
+   	----------------------------------------------------*/
+
+/*	CONTENTS:
+	CSS Reset
+	Generic
+	Header
+	Navigation
+	Content
+	Sidebar
+	Footer
+	Modules
+*/
+
+/* CSS Reset
+   ----------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+	padding:0;
+}
+
+a img {
+	border: 0 none;
+}
+
+/* Generic
+   ----------------------------------------------------*/
+body {
+	background:#ffcc99 url('https://s3.amazonaws.com/os_extranet_files_test/46140_97555_Background.jpg') repeat-y;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	line-height: 1.5em;
+	margin: 0 auto;
+	min-height: 700px;
+	width: 100%;
+}
+
+#wrapper .width {
+	background: #fff;
+	padding: 20px;
+}
+
+h1 {
+	color: #00853F;
+	font-size: 210%;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 150%;
+	padding-top: 10px;
+        color:#00853F;
+}
+
+h3 {
+	font-size: 130%;
+	padding-top: 10px;
+}
+
+h4 {
+	font-size: 120%;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0px;
+	color: #ccc;
+	height: 1px;
+}
+
+.width {
+	margin: 0 auto;
+	width: 960px;
+}
+
+a {
+	color: #05568E;
+}
+
+a:hover {
+	color: #6AA3CB;
+}
+
+code {
+    background-color: #E7E7E7;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+/* Header
+   ----------------------------------------------------*/
+#header {
+	background: #00853F;
+	padding-top: 10px;
+	width: 100%;
+}
+
+#header_text {
+	background: url(http://os_extranet_images.s3.amazonaws.com/347207_original.png) no-repeat;
+	background-position: 0 20px;
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-size: 21px;
+	font-weight: normal;
+	min-height: 40px;
+	padding-left: 215px;
+	padding-top: 35px;
+	width: 450px;
+}
+
+/* Navigation
+   ----------------------------------------------------*/
+#navigation {
+	background: #AFAFAF;
+	border-bottom: 2px solid #fff;
+	font-weight: bold;
+	margin-top: 15px;
+	width: 100%;
+}
+
+#navigation ul {
+	margin: 0px;
+	padding: 12px 0;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+}
+
+#navigation ul li a {
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+}
+
+#navigation ul li a:hover {
+	background: #00853F;
+	color: #fff;
+}
+
+
+.content {
+	float: left;
+	width: 700px;
+}
+
+/* Sidebar
+   ----------------------------------------------------*/
+#wrapper #right_column {
+	border-left: 1px solid #cfcfcf;
+	float: right;
+	font-size: 11px;
+	margin-left: 10px;
+	padding: 0px 15px;
+	width: 200px;
+}
+
+#right_column ul li {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+#right_column ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#right_column h4 + ul, #right_column h4 + p {
+	margin: 5px 0;
+}
+
+#right_column p + h4, #right_column ul + h4 {
+	padding-top: 15px;
+}
+
+#login {
+	float: right;
+	min-height: 50px;
+}
+
+#login a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#login a:hover {
+	color: #AFAFAF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Footer
+   ----------------------------------------------------*/
+
+#footer {
+	clear: both;
+	color: #666;
+	margin: 30px auto 20px auto;
+	padding-top: 10px;
+	text-align: center;
+	width: 960px;
+}
+
+#footer a {
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #6AA3CB;
+	text-decoration: underline;
+}
+
+#footer img {
+	border: 0px;
+}
+
+/* Modules
+   ----------------------------------------------------*/
+.mini_calendar thead {
+	background-color: #00853F;
+}
+
+.mini_calendar caption{
+       background-color: #AFAFAF;
+       color: #fff;
+}
+
+#calendar_controls a {
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+
+#calendar_controls a {
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+
+.icon_window {
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+
+.form_new_submission a {
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.pod-header {
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+}
+
+.even-row td {
+	background: #f4f4f4;
+}
+
+.new_pod {
+	background: #fafafa;
+	border: 1px solid #eee;
+	margin: 10px 0;
+	padding: 8px;
+}
+
+.new_pod h2 {
+	font-size: 150%;
+	font-weight: normal;
+	margin-left: 8px;
+}
+
+.new_pod ul {
+	margin: 10px;
+}
+
+.new_pod ul li {
+	background: #f4f4f4;
+	background: url(http://os_extranet_images.s3.amazonaws.com/344351_original.png) #f4f4f4;
+	background-position: middle left;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+	list-style-type: none;
+	padding: 8px 8px 8px 40px;
+	width: 100px;
+}
+
+#contact .pod-body textarea {
+	width: 400px;
+}
+
+.picture-box {
+	padding: 8px 0;
+}
+
+.picture-box img {
+	border: 0px;
+	height: 75px;
+}
+
+.album_pic_prev_image_link {
+	border: 0px;
+}
+
+.album_pic_next_image_link {
+	border: 0px;
+}
+
+input, label, select, textarea {
+	float: left;
+	font-size: 14px;
+	margin: 3px;
+	padding: 3px;
+}
+
+.rss_feed {
+	font-size: 11px;
+}
+
+#about_orgsync h2 {
+	color: #007dad;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 24px;
+}
+
+#module_contact .pod-header {
+	display: none;
+}
+
+/* Contact */
+
+#module_contact .pod-header-text  {
+	display: none;
+}
+
+#module_contact label {
+	color: #666666;
+	font-size: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#dynamic_recaptcha label {
+	text-transform: none;
+}
+
+#module_contact input, #module_contact textarea {
+	background-color: #EFEFEF;
+	border: 1px solid #D6D6D6;
+	color: #333333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 155%;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 318px;
+}
