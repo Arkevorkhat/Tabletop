@@ -124,7 +124,10 @@ code {
 /* Navigation
    ----------------------------------------------------*/
 #navigation {
-	background: #ffcc99 url('[[image:navbar]]');
+	background-color:#ffcc99;
+  background-image: url('[[image:navbar]]');
+  background-repeat: repeat-x;
+  background-size:30px;
 	border-bottom: 2px solid #fff;
 	font-weight: bold;
 	margin-top: 15px;
