@@ -124,7 +124,7 @@ code {
 /* Navigation
    ----------------------------------------------------*/
 #navigation {
-	background: #AFAFAF;
+	background: #ffcc99 url('[[image:navbar]]');
 	border-bottom: 2px solid #fff;
 	font-weight: bold;
 	margin-top: 15px;
