@@ -44,7 +44,7 @@ body {
 
 #wrapper .width {
 	background: #fff;
-	padding: 20px;
+	padding: 20px ;
 }
 
 h1 {
@@ -127,7 +127,7 @@ code {
 	background-color:#ffcc99;
   background-image: url('[[image:navbar]]');
   background-repeat: repeat-x;
-  background-size:180px;
+  background-size:126px;
 	border-bottom: 2px solid #fff;
 	font-weight: bold;
 	margin-top: 15px;
@@ -152,9 +152,7 @@ code {
 }
 
 #navigation ul li a:hover {
-	background: #00853F;
-  opacity:.1;
-	color: #fff;
+	color:a56666;
 }
 
 
