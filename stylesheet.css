@@ -97,7 +97,11 @@ code {
     font-weight: bold;
     padding: 2px;
 }
-
+#OrgName {
+    font-family: georgia, serif;
+    -webkit-text-stroke:1px darkred;
+    font-size:2.35em
+}
 
 /* Header
    ----------------------------------------------------*/
@@ -108,17 +112,19 @@ code {
 }
 
 #header_text {
-	background: url(http://os_extranet_images.s3.amazonaws.com/347207_original.png) no-repeat;
+	background: url("[[image:logo]]") no-repeat;
 	background-position: 0 20px;
-	color: #ffffff;
+	color: #000;
 	display: block;
 	float: left;
-	font-size: 21px;
+	font-size: 2.35em;
 	font-weight: normal;
-	min-height: 40px;
+	min-height: 30px;
 	padding-left: 215px;
 	padding-top: 35px;
+  padding-bottom:26px;
 	width: 450px;
+  height:39px;
 }
 
 /* Navigation
