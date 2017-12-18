@@ -97,7 +97,7 @@ code {
     font-weight: bold;
     padding: 2px;
 }
-#OrgName {
+.OrgName {
     font-family: georgia, serif;
     -webkit-text-stroke:1px darkred;
     font-size:1.55em;
