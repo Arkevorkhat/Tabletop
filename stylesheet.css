@@ -108,22 +108,10 @@ code {
 /* Header
    ----------------------------------------------------*/
 #header {
-	background: #ecdba5;
+	background:url("[[image:topBanner]]") no-repeat;
 	padding-top: 10px;
 	width: 100%;
 }
-
-#header_text {
-	background: url("[[image:logo]]") no-repeat;
-  background-size:170px;
-	background-position: 0 20px;
-	color: #000;
-	display: block;
-	float: left;
-	font-size: 1.55em;
-	font-weight: normal;
-}
-
 /* Navigation
    ----------------------------------------------------*/
 #navigation {
