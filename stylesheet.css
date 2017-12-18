@@ -100,7 +100,9 @@ code {
 #OrgName {
     font-family: georgia, serif;
     -webkit-text-stroke:1px darkred;
-    font-size:2.35em
+    font-size:1.55em;
+    padding-left: 189px;
+    padding-top: 21px;
 }
 
 /* Header
@@ -113,18 +115,13 @@ code {
 
 #header_text {
 	background: url("[[image:logo]]") no-repeat;
+  background-size:170px;
 	background-position: 0 20px;
 	color: #000;
 	display: block;
 	float: left;
-	font-size: 2.35em;
+	font-size: 1.55em;
 	font-weight: normal;
-	min-height: 30px;
-	padding-left: 215px;
-	padding-top: 35px;
-  padding-bottom:26px;
-	width: 450px;
-  height:39px;
 }
 
 /* Navigation
